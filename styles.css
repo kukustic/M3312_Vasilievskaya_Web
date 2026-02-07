@@ -37,8 +37,12 @@ body{
 .page-main, .site-header__branding, .site-footer { max-width: var(--container-max); margin: 0 auto; padding-left: var(--sp-md); padding-right: var(--sp-md); }
 
 /* HEADER*/
+
 .site-header{
-  background: linear-gradient(90deg, rgba(165,123,255,0.03), rgba(211,179,255,0.01));
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: linear-gradient(90deg, rgba(165,123,255), rgba(211,179,255));
   padding: 1.125rem var(--sp-md);
   border-bottom: 1px solid rgba(255,255,255,0.03);
   box-shadow: 0 6px 18px rgba(0,0,0,0.6);
@@ -76,12 +80,6 @@ body{
   opacity: 0.95;
 }
 /* Nav */
-
-.nav {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
 
 .nav__list {
   display: flex;
