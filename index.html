@@ -28,74 +28,17 @@
 
     <nav class="nav" aria-label="Главное меню">
       <ul class="nav__list">
-        <li class="nav__item"><a class="nav__link" href="#about">О Нори</a></li>
-        <li class="nav__item"><a class="nav__link" href="#gallery">Фото</a></li>
+        <li class="nav__item"><a class="nav__link" href="about.html">О Нори</a></li>
+        <li class="nav__item"><a class="nav__link" href="gallery.html">Фото</a></li>
         <li class="nav__item"><a class="nav__link" href="#faves">Любимое</a></li>
-        <li class="nav__item"><a class="nav__link" href="#care">Уход</a></li>
-        <li class="nav__item"><a class="nav__link" href="#stories">Истории</a></li>
-        <li class="nav__item"><a class="nav__link" href="#contacts">Контакты</a></li>
+        <li class="nav__item"><a class="nav__link" href="care.html">Уход</a></li>
+        <li class="nav__item"><a class="nav__link" href="stories.html">Истории</a></li>
+        <li class="nav__item"><a class="nav__link" href="contacts.html">Контакты</a></li>
       </ul>
     </nav>
   </header>
 
   <main class="page-main">
-
-    <section id="about" class="about" aria-labelledby="about-title">
-      <h2 id="about-title" class="section__title">О Нори</h2>
-
-      <div class="about__content">
-        <article class="about__article about__article--bio">
-          <h3 class="about__subtitle">Краткая биография</h3>
-          <p>Нори — чёрная кошка с мягкой гладкой шёрсткой и выразительными глазами. <strong>Очень ласковая</strong>, но иногда ведёт себя как непоседа: любит бегать, <em>прыгать</em> и громко мяукать.</p>
-          <p>Возраст: <span class="about__age">3 месяца</span> (примерно). Привычки: спать на клавиатуре, играть по ночам, охотиться на мух.</p>
-        </article>
-
-        <article class="about__article about__article--char">
-          <h3 class="about__subtitle">Характер</h3>
-          <p>Добрая и игривая. Иногда пытается таскать еду — <del class="text--deleted">так делать нельзя</del> — <ins class="text--inserted">но она считает иначе</ins>.</p>
-        </article>
-
-        <aside class="aside" aria-label="Интересный факт">
-          <h4 class="aside__title">Интересный факт</h4>
-          <p>Чёрные кошки иногда считаются символом удачи — Нори особенно любит тёплые места и коробки.</p>
-        </aside>
-      </div>
-    </section>
-
-    <section id="gallery" class="gallery" aria-labelledby="gallery-title">
-      <h2 id="gallery-title" class="section__title">Фотоальбом</h2>
-      <p class="section__desc">Пара кадров из жизни Нори:</p>
-
-      <ul class="gallery__list">
-        <li class="gallery__item">
-          <figure class="gallery__figure">
-            <img src="images/nori_spit.jpg" alt="Нори лежит" class="gallery__img" width="300" loading="lazy">
-            <figcaption class="gallery__caption">Нори лежит</figcaption>
-          </figure>
-        </li>
-
-        <li class="gallery__item">
-          <figure class="gallery__figure">
-            <img src="images/nori_na_okne.jpg" alt="Нори на окне" class="gallery__img" width="300" loading="lazy">
-            <figcaption class="gallery__caption">Нори на окне</figcaption>
-          </figure>
-        </li>
-
-        <li class="gallery__item">
-          <figure class="gallery__figure">
-            <img src="images/nori_sonnaya.jpg" alt="Сонная Нори" class="gallery__img" width="300" loading="lazy">
-            <figcaption class="gallery__caption">Сонная Нори</figcaption>
-          </figure>
-        </li>
-
-        <li class="gallery__item">
-          <figure class="gallery__figure">
-            <img src="images/nori_sgorela.jpg" alt="Нори — сгоревший пирожок" class="gallery__img" width="300" loading="lazy">
-            <figcaption class="gallery__caption">Сгоревший пирожок 😼</figcaption>
-          </figure>
-        </li>
-      </ul>
-    </section>
 
     <section id="faves" class="faves" aria-labelledby="faves-title">
       <h2 id="faves-title" class="section__title">Любимые вещи Нори</h2>
@@ -108,98 +51,15 @@
       </ol>
     </section>
 
-    <section id="care" class="care" aria-labelledby="care-title">
-      <h2 id="care-title" class="section__title">Уход за Нори</h2>
-
-      <article class="care__article">
-        <h3 class="care__subtitle">Короткий гайд</h3>
-        <p>Ниже — пример «рецепта» ежедневного ухода (псевдокод):</p>
-
-        <pre class="code-block" tabindex="0" aria-label="Пример кода по уходу"><code>// Утренний ритуал ухода за Нори (псевдокод)
-feed(nori, "влажный корм", 1);
-stroke(nori, 3 * minutes);
-check_water_bowl();
-clean_litter();
-play_with(toy_mouse, 5 * minutes);
-// заканчиваем день — сон в коробке
-</code></pre>
-
-        <p><strong>Важно:</strong> ветеринарные осмотры раз в год, профилактика по графику.</p>
-        <h3 class="care__subtitle">Режим ухода</h3>
-
-<table class="care-table">
-  <thead>
-    <tr>
-      <th>Процедура</th>
-      <th>Частота</th>
-      <th>Комментарий</th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td data-label="Процедура">Кормление</td>
-      <td data-label="Частота">2 раза в день</td>
-      <td data-label="Комментарий">Влажный + сухой корм</td>
-    </tr>
-    <tr>
-      <td data-label="Процедура">Смена воды</td>
-      <td data-label="Частота">Ежедневно</td>
-      <td data-label="Комментарий">Свежая вода</td>
-    </tr>
-    <tr>
-      <td data-label="Процедура">Уборка лотка</td>
-      <td data-label="Частота">1 раз в день</td>
-      <td data-label="Комментарий">Без запаха</td>
-    </tr>
-    <tr>
-      <td data-label="Процедура">Игры</td>
-      <td data-label="Частота">2–3 раза в день</td>
-      <td data-label="Комментарий">Активные игрушки</td>
-    </tr>
-  </tbody>
-</table>
-
-      </article>
-    </section>
-
-    <section id="stories" class="stories" aria-labelledby="stories-title">
-      <h2 id="stories-title" class="section__title">Забавные истории</h2>
-
-      <article class="stories__article">
-        <h3 class="stories__subtitle">Неудачный прыжок</h3>
-        <p>Однажды Нори хотела допрыгнуть до подоконника, но немного не рассчитала высоту, врезалась в стену и плюхнулась в кастрюлю с водой.</p>
-
-        <blockquote class="quote" cite="">
-          <p>«Нори — маленькая дурочка: она всегда во всё врезается»</p>
-          <cite class="quote__cite">— Владелец Ксения</cite>
-        </blockquote>
-      </article>
-    </section>
-
   </main>
 
   <footer class="site-footer" role="contentinfo">
     <section id="contacts" class="contacts" aria-labelledby="contacts-title">
-      <h2 id="contacts-title" class="section__title">Контакты</h2>
-      <p>Если хочешь узнать больше про Нори — напиши:</p>
-
-      <form class="form" action="#" method="post" aria-label="Форма связи с владельцем Нори">
-        <label for="name" class="form__label">Имя:</label>
-        <input id="name" name="name" class="form__input" type="text" placeholder="Твоё имя" required aria-required="true">
-
-        <label for="email" class="form__label">Email:</label>
-        <input id="email" name="email" class="form__input" type="email" placeholder="example@mail.com" required aria-required="true">
-
-        <label for="message" class="form__label">Сообщение:</label>
-        <textarea id="message" name="message" class="form__textarea" rows="4" placeholder="Напиши что-нибудь про Нори"></textarea>
-
-        <button type="submit" class="form__button">Отправить</button>
-      </form>
-
       <p class="author"><small>Студент: Васильевская Ксения Васильевна — группа: M3312</small></p>
     </section>
   </footer>
+
+ <script src="main.js"></script>
 
 </body>
 </html>

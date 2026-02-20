@@ -390,3 +390,9 @@ a:focus, button:focus, input:focus, textarea:focus{
   }
 }
 
+/* Активная страница */
+.nav__link--active{
+  background: var(--accent-2);
+  color: #0b0b0d;
+  box-shadow: 0 0 12px rgba(165,123,255,0.6);
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Нори — сайт чёрной кошки</title>
+  <meta name="keywords" content="кот, кошка, Нори, питомец, портфолио, животные">
+  <meta name="description" content="Мини-сайт чёрной кошки Нори — биография, фото, советы по уходу и контактная форма.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-header__branding">
+      <img class="branding__img" src="images/nori.jpg" alt="Нори — чёрная кошка" width="120" height="120">
+      <div class="branding__text">
+        <h1 class="branding__title">Нори</h1>
+        <p class="branding__subtitle">Чёрная кошка. Любит коробки, солнечных зайчиков и внимание.</p>
+      </div>
+    </div>
+
+    <nav class="nav" aria-label="Главное меню">
+      <ul class="nav__list">
+        <li class="nav__item"><a class="nav__link" href="about.html">О Нори</a></li>
+        <li class="nav__item"><a class="nav__link" href="gallery.html">Фото</a></li>
+        <li class="nav__item"><a class="nav__link" href="index.html">Любимое</a></li>
+        <li class="nav__item"><a class="nav__link" href="care.html">Уход</a></li>
+        <li class="nav__item"><a class="nav__link" href="stories.html">Истории</a></li>
+        <li class="nav__item"><a class="nav__link" href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page-main">
+
+    <section id="about" class="about" aria-labelledby="about-title">
+      <h2 id="about-title" class="section__title">О Нори</h2>
+
+      <div class="about__content">
+        <article class="about__article about__article--bio">
+          <h3 class="about__subtitle">Краткая биография</h3>
+          <p>Нори — чёрная кошка с мягкой гладкой шёрсткой и выразительными глазами. <strong>Очень ласковая</strong>, но иногда ведёт себя как непоседа: любит бегать, <em>прыгать</em> и громко мяукать.</p>
+          <p>Возраст: <span class="about__age">3 месяца</span> (примерно). Привычки: спать на клавиатуре, играть по ночам, охотиться на мух.</p>
+        </article>
+
+        <article class="about__article about__article--char">
+          <h3 class="about__subtitle">Характер</h3>
+          <p>Добрая и игривая. Иногда пытается таскать еду — <del class="text--deleted">так делать нельзя</del> — <ins class="text--inserted">но она считает иначе</ins>.</p>
+        </article>
+
+        <aside class="aside" aria-label="Интересный факт">
+          <h4 class="aside__title">Интересный факт</h4>
+          <p>Чёрные кошки иногда считаются символом удачи — Нори особенно любит тёплые места и коробки.</p>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <section id="contacts" class="contacts" aria-labelledby="contacts-title">
+      <p class="author"><small>Студент: Васильевская Ксения Васильевна — группа: M3312</small></p>
+    </section>
+  </footer>
+
+ <script src="main.js"></script>
+</body>
+</html>
